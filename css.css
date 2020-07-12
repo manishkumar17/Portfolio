@@ -1,0 +1,219 @@
+body {
+    font-size: 25px;
+    overflow-x: hidden;
+    background-color: #050a30;	/*#050a30*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Varela', sans-serif;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8px;
+}
+.logo img{
+    width: 110px;
+}
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+    color: whitesmoke;
+    font-family: 'Century Gothic', sans-serif;
+}
+.nav-links li {
+    display: flex;
+    list-style-type: none;
+}
+.nav-links a {
+	text-decoration: none;
+	font-size: 15px;
+	padding: 5px;
+	letter-spacing: 2px;
+	color: cyan;
+}
+.nav-links a:hover{
+    background-color: rgb(17, 47, 80);   
+}
+.burger{
+	display: none;
+	cursor: pointer;
+}
+.burger div{
+	width: 25px;
+	height:3px;
+	border-radius: 8px;
+	background-color: cyan;
+	margin: 5px; 
+	transition: all 0.3s ease;
+}
+.resume-btn {
+	padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 2%;
+}
+
+.main-content {
+    width: 120vh;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    transform: translate(10%,30%);
+    /* padding-left: 18%; 
+    padding-top:5%;     */
+    line-height: 35px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content h1 {
+	position:relative;
+    color: rgb(166, 186, 206);
+    font-size: 70px;
+}
+.main-content span {
+    color: cyan;
+    position: relative;
+    font-size: 16px;
+    
+}
+.main-content h2 {
+    color: darkcyan;
+    position: relative;
+    font-size: 60px;
+    
+}
+.main-content p {
+    font-size: 18px;
+    position: relative;
+    color: #0f989d;
+    line-height: 28px;
+    color: rgb(153, 175, 252);
+    margin-bottom: 4%;
+}
+.get-in-touch {
+    border: 1px solid cyan;
+   	position: relative;
+    font-size: 17px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    transform: background-color 0.2s;
+}
+.get-in-touch:hover {
+    transition: linear 0.3s;
+    background-color: rgba(78, 76, 73, 0.144);
+    box-shadow: 1px 1px 6px black;
+}
+
+.Aboutsection {
+    font-size: 15px;
+    width: 120vh;
+    left: 12%;
+    transform: translate(30%,50%);
+    margin-top: 20%;
+}
+.Aboutsection h1 {
+    color: rgb(247, 189, 247);
+    margin-bottom: 40px;
+}
+.Aboutsection p {
+    color: steelblue;
+    line-height: 1.5vw;
+    font-weight: 150px;
+    word-spacing: 0.1vw;
+}
+.Aboutsection .languages {
+    color: darkcyan;
+    padding: 1vw;
+    line-height: 1.5vw;    
+}
+.Aboutsection .profile-pic{ 
+    float: right;
+    width: 18vw;
+    margin-right: 20px;
+    
+}
+.footer{
+    width: 100%;
+    color: whitesmoke;
+    font-size: 12px; 
+    text-align: center;
+      }
+.footer span{
+    color: red;
+}
+
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+	opacity: 0;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+.vert-line1{
+    height: 100px;
+    background-color: rgb(174, 187, 245);
+    width: 2px;
+    position: fixed;
+    bottom: 0vw;
+    left: 4vw;
+    /* transform: translate(-50%, -50%); */
+}
+.vert-line2{
+    height: 100px;
+    background-color: rgb(174, 187, 245);
+    width: 2px;
+    position: fixed;
+    bottom: 0vw;
+    right: 4vw;
+}
+.right-email{
+    height: 100px;
+    position: fixed;
+    bottom: 13vw;
+    right: 3.4vw;
+    transition: all 0.3s ease;
+}
+.right-email:hover{
+    bottom: 13.5vw;
+}
+
+.right-email a{
+    text-decoration: none;
+    color: darkcyan;
+    transition: all 0.3s ease;
+    font-size: 1vw;
+    writing-mode: vertical-lr;
+}
+.right-email a:hover{
+    bottom: 13.5vw;
+    color: whitesmoke;
+}
+.left-social-icons{
+    width: 1vw;
+    position: fixed;
+    bottom: 8vw;
+    left: 3.4vw;
+    line-height: 3vw;
+    
+}
+.left-social-icons a{
+    color: darkcyan;
+    font-size: 1.4vw;
+    padding-bottom: 0;
+    transition: all .4s ease;
+}
+.left-social-icons a:hover{
+    padding-bottom: 1vw;
+    color: whitesmoke;
+}
+
+      
