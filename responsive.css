@@ -8,7 +8,7 @@
         left: 30px;
         top: 50%;
         line-height: 50px;
-   		transform: translate(5%, 50%);
+   		transform: translate(8%, 50%);
     }
     .main-content h1 {
         font-size: 55px;
@@ -35,7 +35,7 @@
         /* margin-top: 10%; */
         top: 50%;
         line-height: 50px;
-   		transform: translate(25%, 50%);
+   		transform: translate(30%, 50%);
     }
     .Aboutsection h1 {
         color: rgb(247, 189, 247);

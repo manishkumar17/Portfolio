@@ -14,7 +14,6 @@ nav {
     min-height: 8px;
     left: 0;
     right: 0;
-    border: 1px solid red;
 }
 .logo img{
     width: 110px;
@@ -62,7 +61,6 @@ nav {
     width: 52vw;
     position: relative;
     top: 30%;
-    border: 1px solid red;
     left: 10%;
     transform: translate(10%,30%);
     /* padding-left: 18%; 
