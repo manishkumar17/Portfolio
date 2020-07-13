@@ -6,9 +6,9 @@
     .main-content {
     	width: 90vh;
         left: 30px;
-        top: 50%;
+        top: 40%;
         line-height: 50px;
-   		transform: translate(8%, 50%);
+   		transform: translate(8%, 25%);
     }
     .main-content h1 {
         font-size: 55px;
@@ -33,9 +33,9 @@
         width: 90vh;
         margin-left: -90px;
         /* margin-top: 10%; */
-        top: 50%;
+        top: 30%;
         line-height: 50px;
-   		transform: translate(30%, 50%);
+   		transform: translate(30%, 30%);
     }
     .Aboutsection h1 {
         color: rgb(247, 189, 247);
