@@ -46,7 +46,7 @@ p {
     font-size: 1.1rem;
     max-width: 100%;
     line-height: 1.8rem;
-    color: rgb(153, 175, 252);
+    color: rgb(106, 124, 189);
 }
 nav {
     width: 100%;
@@ -64,7 +64,7 @@ nav h1 {
 .nav-links {
 	display: flex;
     justify-content: space-evenly;
-	width: 50%;
+    width: 70%;
     color: whitesmoke;
     font-family: 'Century Gothic', sans-serif;
 }
@@ -92,7 +92,7 @@ nav h1 {
 */
 
 .column-1 {
-    width: 70%;
+    width: 80%;
     margin: 1.5em auto;
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ nav h1 {
 /* About section */
 
 .column-2 {
-    width: 70%;
+    width: 80%;
     display: flex;
     line-height: .5em;
     justify-content: space-between;

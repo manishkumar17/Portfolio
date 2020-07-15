@@ -96,15 +96,16 @@
 } */
 @media screen and (max-width: 600px) {
 	.nav-links{
-		position: absolute;
-		right: 0px;
-		height: 100%;
-		top: 0vh;
+        position: absolute;
+        height: 100%;
+        right: 0;
+		top: -1em;
 		background-color: #4673ac; 		/*#1d1b38*/
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		width: 50%;
+        align-items: center;
+        justify-content: space-evenly;
+		width: 100%;
 		z-index: 1;
         /* transform: translateX(100%); */
         opacity: 0;
@@ -159,22 +160,6 @@
     }
 
     /* ###################################################################### */
-    
-   .footer{
-        width: 100%;
-        color: whitesmoke;
-        font-size: 10px; 
-        text-align: center;
-      }
-    .vert-line1 {
-        display: none;
-    }
-    .vert-line2{
-        display: none;
-    }
-    .left-social-icons{
-        display: none;
-    }
     
 }
 .nav-active {
