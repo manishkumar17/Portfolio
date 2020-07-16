@@ -16,16 +16,7 @@ body {
 li{
     list-style-type: none;
 }
-a {
-	text-decoration: none;
-	font-size: 1rem;
-	padding: .5em;
-	letter-spacing: .1rem;
-	color: cyan;
-}
-a:hover{
-    background-color: rgb(17, 47, 80);   
-}
+
 h1 {
     color: rgb(166, 186, 206);
     font-size: 4.5em;
@@ -50,11 +41,10 @@ p {
 }
 nav {
     width: 100%;
-	display: flex;
+    display: flex;
 	justify-content: space-between;
 	align-items: center;
-    min-height: 8px;
-
+    min-height: 0.8em;
 }
 nav h1 {
     font-size: 1.8rem;
@@ -64,7 +54,8 @@ nav h1 {
 .nav-links {
 	display: flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 50%;
+    height: 2em;
     color: whitesmoke;
     font-family: 'Century Gothic', sans-serif;
 }
@@ -87,6 +78,16 @@ nav h1 {
     border-radius: .5em;
 }
 
+nav a {
+	text-decoration: none;
+    font-size: 1rem;
+    padding: .5em 1em;
+	letter-spacing: .1rem;
+	color: cyan;
+}
+nav a:hover{
+    background-color: rgb(17, 47, 80);   
+}
 /* Main content-1 
 #################################################################################
 */
@@ -120,7 +121,7 @@ nav h1 {
 /* About section */
 
 .column-2 {
-    width: 80%;
+    width: 70%;
     display: flex;
     line-height: .5em;
     justify-content: space-between;
@@ -153,7 +154,7 @@ nav h1 {
 }
 .col-2 img {
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .col-2 img:hover {
     opacity: 1;
@@ -163,6 +164,65 @@ nav h1 {
 
 /* ######################################################################################### */
 
+.column-3 {
+    width: 70%;
+    margin: 20em auto;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 1px 1px 10px; */
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col-3 {
+    width: 50%;
+}
+.col-3 img{
+    width: 100%;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+.col-3 img:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in;
+}
+.col-3 h1 {
+    font-size: 2rem;
+    margin-top: -2.5em;
+    margin-bottom: 1.7em;
+}
+.col-3 p{
+    width: 100%;
+    background-color: #1d1b38;
+    box-shadow: .5px 0px 20px black;
+    padding: 1em 2em;
+    z-index: 4;
+}
+.para {
+    width: 45%;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.para img {
+    float: right;
+    width: 20%;
+    margin-top: 5em;
+    margin-right: 3em;
+}
+.para h3 {
+    color: darkgrey;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+
+/* ####################################################################################### */
 .footer{
     width: 100%;
     color: whitesmoke;
