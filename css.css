@@ -10,7 +10,7 @@ body {
 
 .container {
     max-width: 100%;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 li{
@@ -162,18 +162,35 @@ nav a:hover{
     transition: all 0.2s ease-in;
 }
 
-/* ######################################################################################### */
+/* ################################################################## */
+
 
 .column-3 {
     width: 70%;
-    margin: 20em auto;
+    margin: 1em auto;
     display: flex;
-    align-items: center;
-    /* box-shadow: 1px 1px 10px; */
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.achievement_tag {
+    width: 100%;
+    display: flex;
+}
+.achievement_tag h3 {
+    font-size: 2rem;
+    color: rgb(166, 186, 206);
+}
 
+.section {
+    width: 100%;
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .col-3 {
     width: 50%;
 }
@@ -188,18 +205,7 @@ nav a:hover{
     filter: grayscale(0%);
     transition: all 0.3s ease-in;
 }
-.col-3 h1 {
-    font-size: 2rem;
-    margin-top: -2.5em;
-    margin-bottom: 1.7em;
-}
-.col-3 p{
-    width: 100%;
-    background-color: #1d1b38;
-    box-shadow: .5px 0px 20px black;
-    padding: 1em 2em;
-    z-index: 4;
-}
+
 .para {
     width: 45%;
     display: flex;
@@ -207,6 +213,13 @@ nav a:hover{
     align-items: flex-end;
     justify-content: space-between;
     flex-direction: column;
+}
+.para p{
+    width: 100%;
+    background-color: #1d1b38;
+    box-shadow: .5px 0px 20px black;
+    padding: 1em 2em;
+    z-index: 4;
 }
 .para img {
     float: right;
