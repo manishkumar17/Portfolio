@@ -331,7 +331,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.column-3 .achieve-head {
+.column-3 .cert-heading {
     position: relative;
     display: flex;
     color: rgb(204, 214, 246);
@@ -341,7 +341,7 @@ nav {
     font-size: 30px;
     margin: 10px 0px 40px;
 }
-.column-3 .achieve-head::before{
+.column-3 .cert-heading::before{
     counter-increment: section 1;
     content: "0" counter(section) ".";
     margin-right: 10px;
@@ -362,47 +362,72 @@ nav {
     position: relative;
     margin-left: 20px;
 }
-.section {
+.certificates {
     width: 100%;
-    display: flex;
-    align-items: flex-start;
-    /* background-color: rgba(83, 19, 83, 0.418); */
-    justify-content: space-between;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
 }
-.section .left {
-    width: 450px;
-    overflow: hidden;
-}
-.section .left img{
-    width: 100%;
+.box{
+    width: 350px;
+    height: 250px;
+    float: left;
+    border-radius: 10px;
     transition: all 0.5s ease;
     opacity: 0.8;
-    filter: grayscale(100%) ;
+    margin: 10px;
     box-shadow: black 0 10px 20px -10px;
 }
-.section .left img:hover{
+.box:hover{
     opacity: 1;
-    transform: scale(1.1);
-    filter: grayscale(10%);
+    transform: scale(1.05);
 }
-
-.section .right {
-    width: 600px;
-    display: flex;
-    /* border: 2px solid yellow; */
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-direction: column;
+.box-1 {
+    background: url(./img/python.png);
+    background-size: cover;
+    background-position: center;
 }
-.section .right p{
+.box-2{
+    background: url(./img/Java.png);
+    background-size: cover;
+    background-position: center;
+}
+.inner {
     width: 100%;
-    margin-top: 0;
+    height: 100%;
+    /* padding: 0px 10px 0px 10px; */
+    background-color: rgb(154, 191, 247);
+    border-radius: 10px;
+    opacity: 0.8;
+    clip-path: circle(5% at 90% 15%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
 }
-.section .right h3{
+.inner h1 {
+    margin: 0;
+    color: white;
     font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    display: block;
+    width: 50%;
+    margin: 10px;
+}
+.inner p {
+    color:white;
+    margin: 10px;
+}
+.inner span {
+    margin-left: 313px;
+    margin-top: -50px;
+    font-weight: 600;
+    color: white;
+}
+.inner:hover {
+    background-color: rgb(10, 25, 47);
+    clip-path: circle(75%);
+}
+.inner:hover span {
+    display: none;
 }
 /* ######################################################################################### */
 
@@ -506,5 +531,3 @@ nav {
 .toggle .line3{
 	transform: rotate(45deg) translate(-5px,-6px);
 }
-
-      
