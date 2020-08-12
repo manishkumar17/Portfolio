@@ -287,6 +287,7 @@ nav {
 .right {
     width: 35%;
     max-width: 480px;
+    min-width: 250px;
 }
 .right a {
     width: 100%;
@@ -353,7 +354,7 @@ nav {
     box-sizing: inherit;
     position: relative;
 }
-.column-3 .achieve-head::after {
+.column-3 .cert-heading::after {
     content: "";
     display: block;
     height: 1px;
@@ -362,7 +363,7 @@ nav {
     position: relative;
     margin-left: 20px;
 }
-.certificates {
+.certificates-box {
     width: 100%;
     float: left;
 }
@@ -431,6 +432,99 @@ nav {
 }
 /* ######################################################################################### */
 
+.column-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column-4 .projects-heading {
+    position: relative;
+    display: flex;
+    color: rgb(204, 214, 246);
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    margin: 10px 0px 40px;
+}
+.column-4 .projects-heading::before{
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 30px;
+    margin-top: 6px;
+    box-sizing: inherit;
+    position: relative;
+}
+.column-4 .projects-heading::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    margin-left: 20px;
+}
+.project-box {
+    display: flex;
+}
+.project-box .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-box .box:hover > h1{
+    transform: translateY(0);
+    opacity: 1;
+}
+.project-box .box:hover > a{
+    transform: translateY(0);
+    opacity: 1;
+}
+.project-box .box h1{
+    margin: 0;
+    background-color: cyan;
+    width: 100%;
+    color: black;
+    font-weight: 200;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all 0.25s ease-out;
+}
+.project-box .box a {
+    background-color: cyan;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    color: black;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    transform: translateY(25px);
+    transition: all 0.25s ease-out;
+}
+.project-box .box-1 {
+    background: url(./img/Page-1.png);
+    background-size: cover;
+    background-position: center;
+}
+.project-box .box-2{
+    background: url(./img/Page-2.png);
+    background-size: cover;
+    background-position: center;
+}
+/* ############################################################################# */
 .left-line {
     width: 40px;
     position: fixed;
