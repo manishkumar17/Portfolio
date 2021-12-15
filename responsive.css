@@ -1,7 +1,4 @@
 @media (min-width: 769px) and (max-width: 900px){
-    .project-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
     .master-project-box{
         max-width: 300px;
     }
@@ -71,12 +68,12 @@
         align-items: center;
     }
     .project-container{
-        width: 85%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         align-items: center;
     }
 
@@ -164,14 +161,8 @@
         max-width: 340px;
         background-color: rgba(10, 25, 47,0.2);
     }
-    
-    .project-container{
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0 auto;
-        -ms-grid-column-align: center;
-    }
-
     .master-project-box{
+        width: 100%;
         min-width: 320px;
         max-width: 340px;
     }

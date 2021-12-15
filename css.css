@@ -525,31 +525,24 @@ nav {
 } */
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    column-gap: 20px;
-    row-gap: 20px;
+    width: 100%;
+    float: left;
 }
 .master-project-box {
-    overflow: hidden;
-    position: relative;
-    width: 320px;
+    width: 340px;
     height: 200px;
-    border-radius: 3px;
+    float: left;
+    border-radius: 5px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    opacity: 1;
+    margin: 7px;
+    box-shadow: rgba(2,12,27,0.7) 0 10px 20px -10px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    -webkit-transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.3s;
 }
 
-.master-project-box .inner a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 3em;
-    color: rgb(10, 7, 7);
-    margin-top: 0px;
-    font-family: Sans-serif;
-}
 .master-project-box img{
     background-size: cover;
     background-position: center;
