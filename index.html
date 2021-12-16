@@ -22,6 +22,19 @@
         </script>
 
         <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.7.570/build/pdf.min.js"></script>
+        <script>
+            function showElements() {
+                document.getElementById("certificates-box").style.height = "100%";
+                document.getElementById("certificates-box").style.animationDelay = "0ms";
+                document.getElementById("showElements").style.display = "none";
+                document.getElementById("hideElements").style.display = "inline-block";
+            }
+            function hideElements() {
+                document.getElementById("certificates-box").style.height = "510px";
+                document.getElementById("hideElements").style.display = "none";
+                document.getElementById("showElements").style.display = "inline-block";
+            }
+        </script>
         <title>Manish kumar | Software Engineer</title>
     </head>
 
@@ -109,7 +122,7 @@
                 </div>
                 <div class="column Common-column" id="certifications">
                     <h3 class="Section-heading">Certifications</h3>
-                    <div class="certificates-box">
+                    <div class="certificates-box" id="certificates-box">
                         <div class="box" onclick="btnscale()">
                         </div>
                         <div class="box" onclick="btnscale()">
@@ -129,17 +142,12 @@
                         <div class="box" onclick="btnscale()">
                         </div>
                     </div>
+                    <a href="javascript:void(0)" onclick="showElements()" id="showElements">View More</a>
+                    <a href="javascript:void(0)" onclick="hideElements()" id="hideElements">View Less</a>
                 </div>
-                <div class="column Common-column" id="projects">
-                    <h3 class="Section-heading">Projects</h3>
-                    <div class="project-container">
-                        <div class="master-project-box">
-                            <img src="./img/Page-1.png" alt="Project2">
-                        </div>
-                        <div class="master-project-box">
-                            <img src="./img/Page-2.png" alt="Project2">
-                        </div>
-                    </div>
+                <div class="column Common-column" id="work">
+                    <h3 class="Section-heading">Some Things I’ve Built</h3>
+                        <p>Adding Soon...😉 <br>Stay tuned...</p>
                 </div>
                 <div class="column Common-column" id="contact">
                     <h3 class="Section-heading">Contact</h3>
@@ -151,7 +159,7 @@
                             <li><i class="fa fa-phone"></i></li>
                         </ul>
                         <ul class="contact-details">
-                            <li>3/91 Bhagwati Nagar, Jeevani Colony, Tundla</li>
+                            <li>Bhagwati Nagar, Tundla</li>
                             <li><a href="mailto:manishky10@gmail.com">manishky10@gmail.com</a></li>
                             <li><a href="tel: 9557291337">9557291337</a></li>
                         </ul>
@@ -165,15 +173,19 @@
         </div>
 
         <script type="text/javascript" src="app.js"></script>
-        <!-- <script>
-            box = document.getElementById("img1");
-            function btnscale() {
-                // Set image size to 1.5 times original
-                box.style.transform = "scale(1.5)";
-                // Animation effect 
-                box.style.transition = "transform 0.25s ease";
+        <script>
+            function showElements() {
+                document.getElementById("certificates-box").style.height = "100%";
+                document.getElementById("certificates-box").style.animationDelay = "0ms";
+                document.getElementById("showElements").style.display = "none";
+                document.getElementById("hideElements").style.display = "inline-block";
             }
-            </script> -->
+            function hideElements() {
+                document.getElementById("certificates-box").style.height = "510px";
+                document.getElementById("hideElements").style.display = "none";
+                document.getElementById("showElements").style.display = "inline-block";
+            }
+        </script>
     </body>
 
     </html>
