@@ -525,15 +525,17 @@ nav {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
+  padding: 0;
 }
 
 .contact-grid ul {
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 14px;
   display: grid;
-  row-gap: 20px;
+  row-gap: 15px;
   margin: 0 auto;
+  padding: 2px;
 }
 .contact-icons i {
   font-size: 18px;
