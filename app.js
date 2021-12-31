@@ -6,16 +6,16 @@ const navSlide = () => {
 burger.addEventListener('click', () => {
 		//toggle Nav
 		nav.classList.toggle('nav-active');
-
-			//Animate links
-		navLinks.forEach((link, index) => {
-		if(link.style.animation){
-			link.style.animation = '';	
-		}
-		else{
-			link.style.animation = `navLinkFade 0.8s ease forwards ${index/7 + 0.4}s`;
-		}
-		});
+		
+		// Animate links
+		// navLinks.forEach((link, index) => {
+		// if(link.style.animation){
+		// 	link.style.animation = '';	
+		// }
+		// else{
+		// 	link.style.animation = `navLinkFade 0.4s ease forwards ${index/7 }s`;
+		// }
+		// });
 		//burger Animation
 		burger.classList.toggle('toggle');
 	});
