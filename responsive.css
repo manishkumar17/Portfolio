@@ -34,13 +34,12 @@
     display: flex;
     align-items: baseline;
     border-bottom: #2d286e;
+    flex-direction: column;
   }
   .resume-btn {
     padding: 10px;
   }
-  .links li {
-    opacity: 0;
-  }
+
   .burger {
     display: block;
     z-index: 2;
