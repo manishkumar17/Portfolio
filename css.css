@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff') format('woff');
+    font-style: normal;
+}
+
 body {
   font-size: 1.125rem;
   overflow-x: hidden;
@@ -35,7 +54,7 @@ body {
 }
 h5 {
   color: rgb(136, 146, 176);
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 1.2rem;
   line-height: 1;
 }
@@ -212,12 +231,12 @@ nav {
   align-items: flex-start;
   line-height: 0.5em;
   padding-top: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI Web (West European)';
 }
 .column-1 h1 {
   color: rgb(204, 214, 246);
   font-size: 4em;
-  margin: 0 0;
+  margin: 0;
   line-height: 1;
 }
 .column-1 div {
@@ -227,6 +246,7 @@ nav {
 .column-1 div p {
   margin: 0px 0px 15px;
   box-sizing: inherit;
+  font-weight: 200;
 }
 .get-in-touch {
   border: 1px solid cyan;
@@ -235,6 +255,7 @@ nav {
   align-items: center;
   padding: 15px 25px;
   border-radius: 3px;
+  font-weight: 100;
   margin-top: 30px;
   background-color: transparent;
   font-size: 1rem;
