@@ -1,20 +1,29 @@
 @font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-  }
+  font-family: 'Segoe UI Web (West European)';
+  src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2')
+      format('woff2'),
+    url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff')
+      format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-  }
+  font-family: 'Segoe UI Web (West European)';
+  src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2')
+      format('woff2'),
+    url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff')
+      format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff') format('woff');
-    font-style: normal;
+  font-family: 'Segoe UI Web (West European)';
+  src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff2')
+      format('woff2'),
+    url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff')
+      format('woff');
+  font-style: normal;
 }
 
 body {
@@ -435,6 +444,7 @@ nav {
   overflow: hidden;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
   -webkit-transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.3s;
+  cursor: pointer;
 }
 .box:after {
   content: '';
