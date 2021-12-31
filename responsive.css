@@ -202,6 +202,7 @@
   .box {
     width: 100%;
     min-width: 320px;
+    max-width: 320px;
     background-color: rgba(10, 25, 47, 0.2);
   }
   .contact-grid ul {
